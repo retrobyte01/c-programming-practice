@@ -33,7 +33,7 @@ int main()
     else if (choice==4)
     {
         if (b!=0)
-            printf("Division = %f", a / b);
+            printf("Division = %f", (float)a / b);
         else
             printf("Division by zero is not possible.");
     }
